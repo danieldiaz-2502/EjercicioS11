@@ -26,7 +26,7 @@ const publicar = () => {
 }
 
 database.ref('publicaciones/').on('value', function(data){
-
+    mensajesContainer.innerHTML = '';
     data.forEach(
         publicacion => {
             let valor = publicacion.val();
