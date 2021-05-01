@@ -3,5 +3,12 @@
     margin-bottom: 2em;
     background-color: rgb(211, 211, 211);
     width: 30em;
-    padding: 0.2em;
+}
+
+.responderCont{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: rgb(74, 147, 255);
+    width: 30em;
+    padding: 1rem;
 }
