@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semana 11</title>
+    <link rel="stylesheet" href="ccs/index.css">
+</head>
+
+<body>
+
+<div id="publicacionContainer">
+    <input id="username" placeholder="Escribe tu nomre de usuario" type="text">
+    <input id="mensaje" placeholder="Escribe tu publicación" type="text">
+<button id="publicarBtn">Publicar</button>
+</div>
+
+  <h2>Feed News</h2>
+
+  <div id="mensajesContainer">
+
+  </div>
+  
+
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCqxkZJ3xJnBcz8nYd-VIt2QG7i4675CcA",
+    authDomain: "ejercicio-semana-11.firebaseapp.com",
+    databaseURL: "https://ejercicio-semana-11-default-rtdb.firebaseio.com",
+    projectId: "ejercicio-semana-11",
+    storageBucket: "ejercicio-semana-11.appspot.com",
+    messagingSenderId: "381660109128",
+    appId: "1:381660109128:web:89794bbd2578b61cd0fb7d",
+    measurementId: "G-J352MP89E6"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/Publicacion.js"></script>
+<script src="js/index.js"></script>
